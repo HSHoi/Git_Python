@@ -36,3 +36,8 @@ print(c)
 
 e1 = np.dot(a, c)  # 단위행렬 나오는지 확인
 print(e1)
+
+x = np.array([1.0, 2.0, 3.0, 4.0])  # 1차원
+print(x)
+print(type(x))
+print(x.shape)
