@@ -33,7 +33,7 @@ def apple_graph():
     print('forward : ', total)
     # forward :  220.00000000000003
 
-    # 역전파    오류에 의한 영향
+    # 역전파 오류에 의한 영향
     d_total = 1.0
 
     # 세금 계산 층에서  갯수에 대한 영향, 세금에 대한 영향
